@@ -2,3 +2,7 @@
 	path = The-Inflation-Tree
 	url = https://github.com/FlamemasterNXF/The-Modding-Tree
 	branch = inflation-tree
+[submodule "The-Decremental-Tree"]
+	path = The-Decremental-Tree
+	url = https://github.com/FlamemasterNXF/Flames-TMT-Mods
+	branch = decremental-tree
