@@ -1,8 +1,7 @@
 # FlamemasterNXF.github.io
-## Link Extensions
+## Game Links
 ### TMT Mods
-/The-Inflation-Tree/ <br>
-/The-Negative-Tree/ [VERY WIP, MAY BE BROKEN] <br>
+[The Inflation Tree](https://flamemasternxf.github.io/The-Inflation-Tree/) <br>
 ## Other Things
 [My Discord server](https://discord.gg/Js93DSjBAY) <br>
 [HOW IS THIS MAN](https://www.reddit.com/r/trollface/comments/njhi15/troll_walk_4k_ultra_hd/?utm_source=share&utm_medium=web2x&context=3) <br>
