@@ -1,0 +1,4 @@
+[submodule "The-Inflation-Tree"]
+	path = The-Inflation-Tree
+	url = https://github.com/FlamemasterNXF/The-Modding-Tree
+	branch = inflation-tree
