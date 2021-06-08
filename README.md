@@ -1,6 +1,6 @@
 # FlamemasterNXF.github.io
 ## Game Links
-## Spotlight!
+### Spotlight!
 Interesting new things I develop, or newly released projects will be here :D -Flame<br>
 Check out my newly released game: [The Oil Tree!](https://flamemasternxf.github.io/the-oil-tree/) <br>
 ### TMT Mods
