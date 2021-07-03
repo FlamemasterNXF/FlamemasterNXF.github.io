@@ -18,3 +18,7 @@
 	path = flame-tree-beta
 	url = https://github.com/FlamemasterNXF/Flames-TMT-Mods/
 	branch = flame-tree-testing
+[submodule "FT-Beta"]
+	path = FT-Beta
+	url = https://github.com/FlamemasterNXF/Flames-TMT-Mods
+	branch = flame-tree-beta
