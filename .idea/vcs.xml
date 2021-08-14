@@ -2,6 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/FT-Beta" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Flame-Tree" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Flames-TMT-Mods" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/The-Decremental-Tree" vcs="Git" />
