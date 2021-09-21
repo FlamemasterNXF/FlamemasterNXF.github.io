@@ -1,5 +1,9 @@
 # FlamemasterNXF.github.io
 ## Links
+### Alternation 
+My own game (not a mod!) and also my first game made with JS, HTML and CSS :) <br>
+[Play it here!](https://flamemasternxf.github.io/Alternation/) <br>
+Currently a WIP, join my Discord Server for updates! 
 ### Synergism Plus
 [Synergism Plus Main Site](https://flamemasternxf.github.io/Synergism-Plus/) <br>
 [Synergism Plus Repo](https://github.com/FlamemasterNXF/Synergism-Plus) <br>
