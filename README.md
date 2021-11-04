@@ -1,8 +1,12 @@
 # FlamemasterNXF.github.io
-## My Games
+## My Games 
 ### Alternation 
 My own game (not a mod!) and also my first game made with JS, HTML and CSS :) <br>
 [Play it here!](https://flamemasternxf.github.io/Alternation/) <br>
+### The Grind
+A small game I made in a few hours, it has big numbers! <br>
+Reach an Infinity if you can >:) <br>
+[Try it out!](https://flamemasternxf.github.io/The-Grind/) <br>
 ### Social Credit Incremental
 A stupid project I made in an hour <br>
 [Enjoy I guess?](https://flamemasternxf.github.io/social-credit-incremental/) <br>
