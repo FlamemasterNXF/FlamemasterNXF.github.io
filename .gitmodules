@@ -22,3 +22,7 @@
 	path = FT-Beta
 	url = https://github.com/FlamemasterNXF/Flames-TMT-Mods
 	branch = flame-tree-beta
+[submodule "gwa-tree"]
+	path = gwa-tree
+	url = https://github.com/FlamemasterNXF/Flames-TMT-Mods
+	branch = gwa-tree
