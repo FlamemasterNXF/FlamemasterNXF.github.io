@@ -26,3 +26,7 @@
 	path = gwa-tree
 	url = https://github.com/FlamemasterNXF/Flames-TMT-Mods
 	branch = gwa-tree
+[submodule "Flame-Tree-Rewritten"]
+	path = Flame-Tree-Rewritten
+	url = https://github.com/FlamemasterNXF/Flames-TMT-Mods
+	branch = flame-tree-rewritten
