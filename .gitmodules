@@ -30,3 +30,7 @@
 	path = Flame-Tree-Rewritten
 	url = https://github.com/FlamemasterNXF/Flames-TMT-Mods
 	branch = flame-tree-rewritten
+[submodule "pringles-collapse-beta"]
+	path = pringles-collapse-beta
+	url = https://github.com/FlamemasterNXF/ordinal-pringles
+	branch = v01-collapse
