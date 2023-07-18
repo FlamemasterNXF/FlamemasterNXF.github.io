@@ -34,3 +34,7 @@
 	path = pringles-collapse-beta
 	url = https://github.com/FlamemasterNXF/ordinal-pringles
 	branch = v01-collapse
+[submodule "pringles-singularity-beta"]
+	path = pringles-singularity-beta
+	url = https://github.com/FlamemasterNXF/ordinal-pringles/
+	branch = v02-singularity
