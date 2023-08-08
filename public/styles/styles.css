@@ -1,0 +1,183 @@
+.flexBox {
+    display: flex;
+    align-items: center;
+    place-content:center
+}
+.generalTexts{
+    color: white;
+    font-family: DosisLight;
+}
+.centeredTexts{
+    color: white;
+    font-family: DosisLight;
+    text-align: center;
+}
+.creditsText{
+    color: #009696;
+    font-family: DosisLight;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+.column {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    place-content: center;
+    gap: 1rem;
+}
+.crow {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    place-content: center;
+    margin-top: 1rem;
+    gap: 1.2rem;
+}
+.projName{
+    font-size: 1.2rem;
+    color: white;
+    font-family: Dosis;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.19) 0 10px 20px, rgba(0, 0, 0, 0.23) 0 6px 6px;
+}
+div.project:hover {
+    box-shadow: rgba(0, 0, 160, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    transform: scale(1.2);
+    position: relative;
+    z-index: 2;
+}
+.tab{
+    flex-direction: column;
+    margin-top: 12rem;
+}
+
+
+/*
+    All styles below this line were borrowed from https://jacorb90.me/
+
+                    --> https://jacorb90.me/ <--
+
+    Some may be modified, but all are originally from https://jacorb90.me/
+*/
+button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    background-color: #252b2c;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    color: white;
+    font-family: DosisLight;
+}
+button:hover {
+    border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+}
+.header {
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5em;
+    background-color: rgba(0, 150, 150, 0.35);
+    z-index: 9999;
+}
+header, .header > * {
+    font-size: 0.75rem;
+}
+.header > h1 {
+    font-size: 1.5rem;
+}
+a {
+    font-weight: bold;
+    color: #646cff;
+    text-decoration: inherit;
+    text-shadow: 0px 0px 2px #2d3058;
+}
+a:hover {
+    color: #535bf2;
+}
+a.link {
+    background-color: #272627;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    transition: border-color 0.25s;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+a.link:hover {
+    border-color: #646cff;
+}
+a.link.github-img:hover {
+    border-color: white;
+}
+a.link:focus,
+a.link:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+}
+a.link:not(.discord-img):not(.github-img) {
+    padding: 0.5em;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.discord-img {
+    position: fixed;
+    top: 1em;
+    left: 1em;
+    background-image: url("../res/discord.png");
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    height: 3em;
+    width: 3em;
+}
+.github-img {
+    position: fixed;
+    top: 1em;
+    right: 1em;
+    background-image: url("../res/github.png");
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    height: 3em;
+    width: 3em;
+}
+.row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 1em;
+}
+
+.taskbar {
+    position: fixed;
+    padding-top: 1.2rem;
+    padding-bottom: 1em;
+    top: calc(5 * 0.75rem);
+    left: 0;
+    right: 0;
+    min-height: 4em;
+    background: linear-gradient(to bottom, rgba(0, 150, 150, 0.35), #141117);
+    filter: brightness(110%);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    z-index: 10000;
+}
+.taskbar > button {
+    height: 2.5em;
+}
+div.project {
+    border: 1px solid rgba(255,255,255,0.2);
+    width: 20em;
+    height: 10em;
+    padding: 0.5em;
+    background-color: rgb(33, 42, 47);
+    border-radius: 40%;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    transition: all 1s ease-in-out;
+    transform: scale(1);
+}

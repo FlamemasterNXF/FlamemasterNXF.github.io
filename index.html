@@ -1,85 +1,141 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
   <head>
-    <meta charset="utf-8">
-    <title>My Games</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="shortcut icon" href="81F6E744-DD3F-46C1-9A34-DD0691B49C19.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="public/styles/misc.css"/>
+    <link rel="stylesheet" type="text/css" href="public/styles/styles.css"/>
+    <link rel="stylesheet" type="text/css" href="public/styles/tooltip.css"/>
+    <script defer src="public/src/tabs.js"></script>
+    <script defer src="public/src/DOM.js"></script>
+    <script defer src="public/src/links.js"></script>
+    <link rel="icon" href="public/res/favicon.png" type="image/gif" sizes="32x32"/>
+    <title>flamemasternxf</title>
   </head>
   <body>
-    <h1>Flamemaster.NXF.github.io</h1>
-    <hr>
-    <h2>My Games</h2>
-    <hr>
-    
-    <h3>Operation: Satisfaction</h3>
-    <p>
-      Big Numbers increase at an exponentially growing speed! It’s pretttty
-      satisfying!
-      <a href="https://flamemasternxf.github.io/OperationSatisfaction/">Be Satisfied!</a>
-    </p>
-    
-    <h3>The Grind</h3>
-    <p>
-      A small game I made in a few hours, it has big numbers! <br>
-      Reach an Infinity if you can &gt;:)
-      <a href="https://flamemasternxf.github.io/The-Grind/">Try it out!</a>
-    </p>
-    
-    <h3>Alternation</h3>
-    <p>
-      My own game (not a mod!) and also my first game made with JS, HTML and CSS :) <br>
-      <a href="https://flamemasternxf.github.io/Alternation/">Play it here!</a>
-    </p>
-    
-    <h3>Social Credit Incremental</h3>
-    <p>
-      A stupid project I made in an hour <br>
-      <a href="https://flamemasternxf.github.io/social-credit-incremental/">Enjoy I guess?</a>
-    </p>
-    <h3>Other Games</h3>
-    <p>
-      <a href="https://flamemasternxf.github.io/Circles/">Circles</a>
-      <a href="https://flamemasternxf.github.io/Hypercube/">Hypercube</a>
-    </p
-    
-    <hr>
-    <h2>My Mods</h2>
-    <hr>
-    
-    <h3>Synergism Plus</h3>
-    <p>
-      <a href="https://flamemasternxf.github.io/Synergism-Plus/">Synergism Plus Main Site</a> <br>
-      <a href="https://github.com/FlamemasterNXF/Synergism-Plus">Synergism Plus Repo</a> <br>
-      A Tool for creating Synergism Mods!
-    </p>
-    
-    <h3>Modding Tree</h3>
-    <p>
-      <a href="https://flamemasternxf.github.io/The-Inflation-Tree/">The Inflation Tree:</a> My First Mod! <br>
-      <a href="https://flamemasternxf.github.io/the-oil-tree/">The Oil Tree:</a> Old Bad Mod :( <br>
-      <a href="https://flamemasternxf.github.io/Flame-Tree/">Flame Tree:</a> My Newest and Best Mod!<br>
-      <a href="https://flamemasternxf.github.io/Flame-Tree-Rewritten/">Flame Tree 2</a>
-    </p>
-    
-    <h3>Other Mods</h3>
-    <p>
-      <a href="https://flamemasternxf.github.io/ordinal-pringles/">Ordinal Pringles</a><br>
-      <a href="https://flamemasternxf.github.io/Conways-Incremental/">Conway's Incremental</a>
-    </p
-    <hr>
-    <h2>Other Things</h2>
-    <hr>
-    
-    <p>
-      <a href="https://discord.com/invite/Js93DSjBAY">My Discord Server</a> <br>
-      <a href="https://www.reddit.com/r/trollface/comments/njhi15/troll_walk_4k_ultra_hd/?utm_source=share&utm_medium=web2x&context=3">very cool</a><br>
-      <a href="https://github.com/FlamemasterNXF/PeanutScript/blob/main/README.md">PeanutScript</a> My own Programming Language!<br>
-      <a href="https://flamemasternxf.github.io/gwa/">gwa</a><br>
-      <a href="https://flamemasternxf.github.io/96/">96</a><br>
-      <a href="https://flamemasternxf.github.io/gwa-cardgame/">gwa card game</a><br>
-      <a href="https://github.com/FlamemasterNXF/Sea">Sea</a> My second Programming Language!
-    </p>
-    
+  <div class="flexBox" style="flex-direction: column">
+    <div class="flexBox">
+      <div class="header">
+        <a class="link discord-img" target="_blank" href="https://discord.com/invite/dauxGZwc9u"></a>
+        <a class="link github-img" target="_blank" href="https://github.com/FlamemasterNXF"></a>
+        <h1 class="centeredTexts">FlamemasterNXF</h1>
+      </div>
+    </div>
+    <div class="flexBox">
+      <div class="taskbar row" style="margin-top: 1.25rem">
+        <button onclick="switchTab('main')">/main</button>
+        <button onclick="switchTab('proto')">/prototypes</button>
+        <button onclick="switchTab('etc')">/etc</button>
+        <button onclick="switchTab('friends')">/friends</button>
+      </div>
+    </div>
+    <div class="flexBox tab" id="main">
+      <div class="crow">
+        <div class="project column" onclick="openLink('https://flamemasternxf.github.io/ordinal-pringles/')">
+          <t class="projName">Ordinal Pringles</t>
+          <t class="centeredTexts">My best and largest project. A spiritual successor to Ordinal Markup. Actively developed.</t>
+        </div>
+      </div>
+      <div class="crow">
+        <div class="project column" onclick="openLink('https://flamemasternxf.github.io/UC-Remake/')">
+          <t class="projName">UC</t>
+          <t class="centeredTexts">My second and best attempt (excluding Pringles) at making a non-TMT game. Incomplete but not too short. May be remade in the future.</t>
+        </div>
+        <div class="project column" onclick="openLink('https://flamemasternxf.github.io/Flame-Tree/')">
+          <t class="projName">Flame Tree</t>
+          <t class="centeredTexts">My third and largest TMT mod. Incomplete but not too short.</t>
+        </div>
+      </div>
+      <div class="crow">
+        <div class="project column" onclick="openLink('https://flamemasternxf.github.io/The-Grind/')">
+          <t class="projName">The Grind</t>
+          <t class="centeredTexts">A simple and short joke game, complete with a speedrun timer. Complete.</t>
+        </div>
+        <div class="project column" onclick="openLink('https://flamemasternxf.github.io/Alternation/')">
+          <t class="projName">Alternation</t>
+          <t class="centeredTexts">My first attempt at making a non-TMT game. Incomplete, short, and potentially buggy.</t>
+        </div>
+        <div class="project column" onclick="openLink('https://flamemasternxf.github.io/The-Inflation-Tree/')">
+          <t class="projName">The Inflation Tree</t>
+          <t class="centeredTexts">My first ever TMT mod. Short, technically complete.</t>
+        </div>
+      </div>
+    </div>
+    <div class="flexBox tab" id="proto" style="display: none;">
+      <div class="crow">
+        <div class="project column" onclick="openLink('https://flamemasternxf.github.io/Hypercube/')">
+          <t class="projName">Hypercube</t>
+          <t class="centeredTexts">An attempt at building an incredibly deep game gone astray. Short, incomplete, and buggy. May be remade in the future.</t>
+        </div>
+        <div class="project column" onclick="openLink('https://flamemasternxf.github.io/Circles/')">
+          <t class="projName">Circles</t>
+          <t class="centeredTexts">A simple prototype where a circle grows by 1% every second, filling a higher Circle by 1% upon reaching 100%. Complete.</t>
+        </div>
+        <div class="project column" onclick="openLink('https://flamemasternxf.github.io/OperationSatisfaction/')">
+          <t class="projName">Operation: Satisfaction</t>
+          <t class="centeredTexts">A simple prototype with numbers going up. Complete.</t>
+        </div>
+      </div>
+      <div class="crow">
+        <div class="project column" onclick="openLink('https://flamemasternxf.github.io/Conways-Incremental/')">
+          <t class="projName">Conway's Incremental</t>
+          <t class="centeredTexts">Despite its name, it has no incremental features. A simple recreation of Conway's Game of Life.</t>
+        </div>
+        <div class="project column" onclick="openLink('https://flamemasternxf.github.io/gwa-cardgame/')">
+          <t class="projName">gwa card game</t>
+          <t class="centeredTexts">An attempt at making a card-collecting game that never went anywhere. Massively incomplete.</t>
+        </div>
+        <div class="project column" onclick="openLink('https://flamemasternxf.github.io/the-grind-2/\n')">
+          <t class="projName">The Grind 2</t>
+          <t class="centeredTexts">A game with infinite generators that produce infinite numbers. Complete.</t>
+        </div>
+      </div>
+    </div>
+    <div class="flexBox tab" id="etc" style="display: none;">
+      <div class="crow">
+        <div class="project column" onclick="openLink('https://github.com/FlamemasterNXF/Sea')">
+          <t class="projName">Sea</t>
+          <t class="centeredTexts">My second programming language, made in C#. Simple, but not very feature complete.</t>
+        </div>
+        <div class="project column" onclick="openLink('https://github.com/FlamemasterNXF/PeanutScript/blob/main/README.md')">
+          <t class="projName">PeanutScript</t>
+          <t class="centeredTexts">My first programming language, made in Python. Very buggy.</t>
+        </div>
+        <div class="project column" onclick="openLink('https://flamemasternxf.github.io/Synergism-Plus/')">
+          <t class="projName">Synergism Plus</t>
+          <t class="centeredTexts">A tool for modding Synergism. Very outdated.</t>
+        </div>
+      </div>
+      <div class="crow">
+        <div class="project column" onclick="openLink('https://flamemasternxf.github.io/gwa/')">
+          <t class="projName">gwa</t>
+          <t class="centeredTexts">An incomplete and outdated website cataloging all the gwas.</t>
+        </div>
+        <div class="project column" onclick="openLink('https://flamemasternxf.github.io/social-credit-incremental/')">
+          <t class="projName">Social Credit Incremental</t>
+          <t class="centeredTexts">Stupid joke "game" made in an hour. Low volume recommended.</t>
+        </div>
+      </div>
+      <div class="crow">
+        <div class="project column" onclick="openLink('https://flamemasternxf.github.io/the-oil-tree/')">
+          <t class="projName">The Oil Tree</t>
+          <t class="centeredTexts">A very bad TMT mod that I ran out of ideas for. Very short.</t>
+        </div>
+      </div>
+    </div>
+    <div class="flexBox tab" id="friends" style="display: none">
+      <div class="centeredTexts" style="font-size: 1.2rem; font-family: Dosis">THANK YOU TO:</div>
+      <div class="creditsText"><b>Jacorb</b>, for being an inspiration for this very site and letting me use some of his CSS for it.</div>
+      <div class="creditsText"><b>ThePaperPilot</b>, for teaching me Git and helping me along my JS journey.</div>
+      <div class="creditsText"><b>downvoid</b>, for helping me fix a lot of bugs in a lot of projects, promoting my projects, and providing a lot of help with Ordinal Pringles.</div>
+      <div class="creditsText"><b>yhvr</b>, for being an inspiration for me and a good friend.</div>
+      <div class="creditsText"><b>ryanleonels</b>, for helping me out a lot with Ordinal Pringles and providing immense amounts of feedback.</div>
+      <div class="creditsText"><b>sw_creeperking</b>, for coaching me through creating Sea and learning C#.</div>
+      <div class="creditsText"><b>TheMkeyHolder</b>, for helping me a lot with my TMT mods and providing basic background for making Ordinal Pringles.</div>
+      <div class="creditsText"><b>randomtuba</b>, for providing tons of ideas and inspiration for Ordinal Pringles.</div>
+      <div class="creditsText"><b>All of my Pringles Testers</b>, for providing so much feedback for Ordinal Pringles and helping me through balancing and fixing bugs.</div>
+      <div class="creditsText"><b>Everyone else who has helped me along the way.</b> If you want your name here, just DM me and I'll add it!</div>
+    </div>
+  </div>
   </body>
 </html>

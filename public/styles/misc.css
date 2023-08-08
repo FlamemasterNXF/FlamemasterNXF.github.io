@@ -1,0 +1,44 @@
+html{
+    background-color: #141117;;
+}
+body{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+p{
+    font-family: DosisLight;
+}
+t{
+    font-family: DosisLight;
+}
+@font-face {
+    font-family: 'DosisBold';
+    src: url(Dosis/static/Dosis-Bold.ttf);
+}
+@font-face {
+    font-family: 'DosisExtraBold';
+    src: url(Dosis/static/Dosis-ExtraBold.ttf);
+}
+@font-face {
+    font-family: 'DosisExtraLight';
+    src: url(Dosis/static/Dosis-ExtraLight.ttf);
+}
+@font-face {
+    font-family: 'DosisLight';
+    src: url(Dosis/static/Dosis-Light.ttf);
+}
+@font-face {
+    font-family: 'DosisMedium';
+    src: url(Dosis/static/Dosis-Medium.ttf);
+}
+@font-face {
+    font-family: 'DosisRegular';
+    src: url(Dosis/static/Dosis-Regular.ttf);
+}
+@font-face {
+    font-family: 'DosisSemiBold';
+    src: url(Dosis/static/Dosis-SemiBold.ttf);
+}
