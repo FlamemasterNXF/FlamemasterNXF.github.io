@@ -38,3 +38,7 @@
 	path = pringles-singularity-beta
 	url = https://github.com/FlamemasterNXF/ordinal-pringles/
 	branch = v02-singularity
+[submodule "pringles-oc-beta"]
+	path = pringles-oc-beta
+	url = https://github.com/FlamemasterNXF/ordinal-pringles/
+	branch = v03-omega
