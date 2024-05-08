@@ -40,3 +40,7 @@
 	path = pringles-oc-beta
 	url = https://github.com/FlamemasterNXF/ordinal-pringles
 	branch = v03-omega
+[submodule "Flame-Tree"]
+	path = Flame-Tree
+	url = https://github.com/FlamemasterNXF/Flame-Tree
+	branch = main
