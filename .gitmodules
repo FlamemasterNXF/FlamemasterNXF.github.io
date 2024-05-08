@@ -8,11 +8,6 @@
 	url = https://github.com/FlamemasterNXF/Flames-TMT-Mods
 	branch = decremental-tree
 	update = none
-[submodule "the-oil-tree"]
-	path = the-oil-tree
-	url = https://github.com/FlamemasterNXF/Flames-TMT-Mods
-	branch = oil-tree
-	update = none
 [submodule "flame-tree-beta"]
 	path = flame-tree-beta
 	url = https://github.com/FlamemasterNXF/Flames-TMT-Mods/
