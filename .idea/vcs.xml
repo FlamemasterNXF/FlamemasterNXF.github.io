@@ -8,6 +8,7 @@
     <mapping directory="$PROJECT_DIR$/gwa-tree" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/pringles-collapse-beta" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/pringles-oc-beta" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/pringles-pringle-beta" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/pringles-singularity-beta" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/the-oil-tree" vcs="Git" />
   </component>
