@@ -43,3 +43,7 @@
 	path = pringles-pringle-beta
 	url = https://github.com/FlamemasterNXF/ordinal-pringles
 	branch = v04-pringles
+[submodule "the-oil-tree"]
+	path = the-oil-tree
+	url = https://github.com/FlamemasterNXF/oil-tree-recovery
+	branch = main
