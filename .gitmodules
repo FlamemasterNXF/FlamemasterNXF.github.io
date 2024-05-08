@@ -1,35 +1,18 @@
 [submodule "The-Inflation-Tree"]
 	path = The-Inflation-Tree
-	url = https://github.com/FlamemasterNXF/The-Modding-Tree
-	branch = inflation-tree
 [submodule "The-Decremental-Tree"]
 	path = The-Decremental-Tree
-	url = https://github.com/FlamemasterNXF/Flames-TMT-Mods
-	branch = decremental-tree
 [submodule "the-oil-tree"]
 	path = the-oil-tree
-	url = https://github.com/FlamemasterNXF/Flames-TMT-Mods
-	branch = oil-tree
 [submodule "Flame-Tree"]
 	path = Flame-Tree
-	url = https://github.com/FlamemasterNXF/Flames-TMT-Mods
-	branch = flame-tree
 [submodule "flame-tree-beta"]
 	path = flame-tree-beta
-	url = https://github.com/FlamemasterNXF/Flames-TMT-Mods/
-	branch = flame-tree-testing
-[submodule "FT-Beta"]
-	path = FT-Beta
-	url = https://github.com/FlamemasterNXF/Flames-TMT-Mods
-	branch = flame-tree-beta
 [submodule "gwa-tree"]
 	path = gwa-tree
-	url = https://github.com/FlamemasterNXF/Flames-TMT-Mods
-	branch = gwa-tree
 [submodule "Flame-Tree-Rewritten"]
 	path = Flame-Tree-Rewritten
-	url = https://github.com/FlamemasterNXF/Flames-TMT-Mods
-	branch = flame-tree-rewritten
+
 [submodule "pringles-collapse-beta"]
 	path = pringles-collapse-beta
 	url = https://github.com/FlamemasterNXF/ordinal-pringles
