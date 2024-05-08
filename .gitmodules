@@ -1,5 +1,3 @@
-[submodule "The-Inflation-Tree"]
-	path = The-Inflation-Tree
 [submodule "The-Decremental-Tree"]
 	path = The-Decremental-Tree
 [submodule "the-oil-tree"]
