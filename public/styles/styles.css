@@ -25,6 +25,12 @@
     place-content: center;
     gap: 1rem;
 }
+.noGapColumn {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    place-content: center;
+}
 .crow {
     display: flex;
     flex-flow: row wrap;
@@ -40,7 +46,28 @@
     text-align: center;
     text-shadow: rgba(0, 0, 0, 0.19) 0 10px 20px, rgba(0, 0, 0, 0.23) 0 6px 6px;
 }
+.blogName{
+     font-size: 1.1rem;
+     color: white;
+     font-family: Dosis;
+     text-align: center;
+     text-shadow: rgba(0, 0, 0, 0.19) 0 10px 20px, rgba(0, 0, 0, 0.23) 0 6px 6px;
+}
+.blogDate{
+    font-size: 0.7rem;
+    color: white;
+    font-family: Dosis;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.19) 0 10px 20px, rgba(0, 0, 0, 0.23) 0 6px 6px;
+}
+
 div.project:hover {
+    box-shadow: rgba(0, 0, 160, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    transform: scale(1.2);
+    position: relative;
+    z-index: 2;
+}
+div.blog:hover {
     box-shadow: rgba(0, 0, 160, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     transform: scale(1.2);
     position: relative;
@@ -174,6 +201,17 @@ div.project {
     border: 1px solid rgba(255,255,255,0.2);
     width: 20em;
     height: 10em;
+    padding: 0.5em;
+    background-color: rgb(33, 42, 47);
+    border-radius: 40%;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    transition: all 1s ease-in-out;
+    transform: scale(1);
+}
+div.blog {
+    border: 1px solid rgba(255,255,255,0.2);
+    width: 10em;
+    height: 7em;
     padding: 0.5em;
     background-color: rgb(33, 42, 47);
     border-radius: 40%;
