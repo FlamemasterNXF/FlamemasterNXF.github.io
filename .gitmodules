@@ -47,3 +47,7 @@
 	path = the-oil-tree
 	url = https://github.com/FlamemasterNXF/oil-tree-recovery
 	branch = main
+[submodule "pringles-sing2-testing"]
+	path = pringles-sing2-testing
+	url = https://github.com/FlamemasterNXF/ordinal-pringles
+	branch = singularity-2
